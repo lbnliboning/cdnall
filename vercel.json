@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "routes": [
+        {"src": "/gh(.*)","dest": "https://cdn.jsdelivr.com/gh/$1"}
+        {"src": "/npm(.*)","dest": "https://cdn.jsdelivr.com/npm/$1"}
+        {"src": "/avater(.*)","dest": "https://secure.gravatar.com/$1"}
+        {"src": "/cdnjs(.*)","dest": "https://cdnjs.com/$1"}
+    ]
+}
